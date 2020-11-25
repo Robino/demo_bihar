@@ -7,5 +7,6 @@ loop do
   messages = consumer.fetch
   messages.each do |m|
     puts m.value
+    puts "Bonjour Bihar"
   end
 end
